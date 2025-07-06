@@ -10,7 +10,7 @@
 	<style type="text/tailwindcss">
 		@layer components {
 			.card {
-				@apply bg-pink-100 w-full max-w-108 p-4 rounded-2xl border-1 border-red-200 shadow-lg transition-transform duration-300 hover:scale-103;
+				@apply bg-pink-100 w-full min-w-100 p-4 rounded-2xl border-1 border-red-200 shadow-lg transition-transform duration-300 hover:scale-103;
 			}
 
 			.image {
@@ -18,11 +18,11 @@
 			}
 
 			.title {
-				@apply font-sans text-sm sm:text-base md:text-lg lg:text-xl;
+				@apply font-sans text-4xl lg:text-xl;
 			}
 
 			.description {
-				@apply text-xs text-gray-500;
+				@apply text-2xl lg:text-sm text-gray-500;
 			}
 		}
 	</style>
@@ -36,7 +36,7 @@
 
 
 	<div
-		class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center my-5  gap-x-10 gap-y-10 max-w-8xl mx-auto ">
+		class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 place-items-center my-5 gap-x-10 gap-y-20 max-w-8xl mx-auto p-10">
 
 
 		<!-- Row 1 -->
