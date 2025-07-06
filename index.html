@@ -10,7 +10,7 @@
 	<style type="text/tailwindcss">
 		@layer components {
 			.card {
-				@apply bg-pink-100 w-full max-w-72 p-4 rounded-2xl border-1 border-red-200 shadow-lg transition-transform duration-300 hover:scale-103;
+				@apply bg-pink-100 w-full max-w-108 p-4 rounded-2xl border-1 border-red-200 shadow-lg transition-transform duration-300 hover:scale-103;
 			}
 
 			.image {
@@ -30,95 +30,84 @@
 
 <body>
 
-	<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center m-5 bg-red-500 gap-x-5 gap-y-20 max-w-7xl mx-auto">
+	<div
+		class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center my-5  gap-x-10 gap-y-10 max-w-8xl mx-auto bg-pink-50">
+
+
+		<!-- Row 1 -->
+		<div class="card">
+			<img class="image"
+				src="https://plus.unsplash.com/premium_photo-1736981384136-c3ab335cb4f0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8MyUyRjIlMjBhc3BlY3QlMjByYXRpbyUyMGltYWdlcyUyMGNhdHxlbnwwfHwwfHx8MA%3D%3D">
+			<h2 class="title">Catosphere</h2>
+			<p class="description">When you want a companion</p>
+		</div>
 
 		<div class="card">
-            <img class="image"
-            src="https://plus.unsplash.com/premium_photo-1736981384136-c3ab335cb4f0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8MyUyRjIlMjBhc3BlY3QlMjByYXRpbyUyMGltYWdlcyUyMGNhdHxlbnwwfHwwfHx8MA%3D%3D">
-            <h2 class="title">Title</h2>
-            <p class="description">description</p>
-        </div>
+			<img class="image"
+				src="https://images.unsplash.com/photo-1701486485362-2590bbfc7e00?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fDMlMkYyJTIwYXNwZWN0JTIwcmF0aW8lMjBpbWFnZXMlMjBwbGFuZXRzfGVufDB8fDB8fHww">
+			<h2 class="title">Saturn</h2>
+			<p class="description">To place rings around all your fingers</p>
+		</div>
 
 		<div class="card">
-            <img class="image"
-            src="https://images.unsplash.com/photo-1701486485362-2590bbfc7e00?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fDMlMkYyJTIwYXNwZWN0JTIwcmF0aW8lMjBpbWFnZXMlMjBwbGFuZXRzfGVufDB8fDB8fHww">
-            <h2 class="title">Title</h2>
-            <p class="description">description</p>
-        </div>
+			<img class="image"
+				src="https://images.unsplash.com/photo-1577083862054-7324cd025fa6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cGFpbnRpbmd8ZW58MHwwfDB8fHww">
+			<h2 class="title">Painting</h2>
+			<p class="description">Replica of your imagination</p>
+		</div>
+
+
+
+
+
+		<!-- Row 2 -->
+		<div class="card">
+			<img class="image"
+				src="https://images.unsplash.com/photo-1544194215-541c2d3561a4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+			<h2 class="title">Life is beautiful</h2>
+			<p class="description">You are life</p>
+		</div>
 
 		<div class="card">
-            <img class="image"
-            src="https://images.unsplash.com/photo-1577083862054-7324cd025fa6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cGFpbnRpbmd8ZW58MHwwfDB8fHww">
-            <h2 class="title">Title</h2>
-            <p class="description">description</p>
-        </div>
-
-
-
-
-
-
-
-
-
-
+			<img class="image"
+				src="https://images.unsplash.com/photo-1589656966895-2f33e7653819?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YW5pbWFsc3xlbnwwfDB8MHx8fDA%3D">
+			<h2 class="title">Hallu</h2>
+			<p class="description">I don't usually say hi but you are my favorite</p>
+		</div>
 
 		<div class="card">
-            <img class="image"
-            src="https://images.unsplash.com/photo-1544194215-541c2d3561a4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
-            <h2 class="title">Title</h2>
-            <p class="description">description</p>
-        </div>
+			<img class="image"
+				src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vZHxlbnwwfDB8MHx8fDA%3D">
+			<h2 class="title">Healthy</h2>
+			<p class="description">You are what you consume</p>
+		</div>
+
+
+
+
+
+		<!-- Row 3 -->
+		<div class="card">
+			<img class="image"
+				src="https://images.unsplash.com/photo-1506781025934-7db24d1701bc?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+			<h2 class="title">Network</h2>
+			<p class="description">Web of life</p>
+		</div>
 
 		<div class="card">
-            <img class="image"
-            src="https://images.unsplash.com/photo-1589656966895-2f33e7653819?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YW5pbWFsc3xlbnwwfDB8MHx8fDA%3D">
-            <h2 class="title">Title</h2>
-            <p class="description">description</p>
-        </div>
+			<img class="image"
+				src="https://images.unsplash.com/photo-1516849841032-87cbac4d88f7?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+			<h2 class="title">Rocket</h2>
+			<p class="description">Upwards we reach to touch the stars</p>
+		</div>
 
 		<div class="card">
-            <img class="image"
-            src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vZHxlbnwwfDB8MHx8fDA%3D">
-            <h2 class="title">Title</h2>
-            <p class="description">description</p>
-        </div>
+			<img class="image"
+				src="https://images.unsplash.com/photo-1586165368502-1bad197a6461?q=80&w=1258&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+			<h2 class="title">Game of life</h2>
+			<p class="description">Armored unarmed knights</p>
+		</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-		
-
-		<div class="card">
-            <img class="image"
-            src="https://images.unsplash.com/photo-1506781025934-7db24d1701bc?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
-            <h2 class="title">Title</h2>
-            <p class="description">description</p>
-        </div>
-
-		<div class="card">
-            <img class="image"
-            src="https://images.unsplash.com/photo-1516849841032-87cbac4d88f7?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
-            <h2 class="title">Title</h2>
-            <p class="description">description</p>
-        </div>
-
-		<div class="card">
-            <img class="image"
-            src="https://images.unsplash.com/photo-1586165368502-1bad197a6461?q=80&w=1258&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
-            <h2 class="title">Title</h2>
-            <p class="description">description</p>
-        </div>
-		
 	</div>
 </body>
 
